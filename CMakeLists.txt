@@ -3,4 +3,6 @@ project(TP15_GR2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(TP15_GR2 main.c)
+add_executable(recap_chaines chaines.c)
+
+add_executable(recap_aleatoire aleatoire.c)
